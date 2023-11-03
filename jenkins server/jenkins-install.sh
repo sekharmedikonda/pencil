@@ -15,7 +15,7 @@ sudo yum install  git -y
 
 #then install terraform
 sudo yum install -y yum-utils
-sudo yum-config-manager  --add-repo https://rpm.release.hasicorp.com/AmazonLinux/hasicorp.repo
+sudo yum-config-manager  --add-repo https://rpm.releases.hasicorp.com/AmazonLinux/hasicorp.repo
 sudo yum -y install terraform
 
 #finally install kubectl
